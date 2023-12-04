@@ -22,7 +22,7 @@
 13. [`git merge`](./git-lessons/git-merge.md)
 14. [`git pull request`](./git-lessons/git-pull-request.md)
 15. [`git fetch upstream`](./git-lessons/git-fetch-upstream.md)
-16. [`Update the local branch which is behind some commits`](./git-lessons/update-local-branch)
+16. [`Update the local branch which is behind some commits`](./git-lessons/update-local-branch.md)
 17. [`git rebase`](./git-lessons/git-rebase.md)
 18. [`rebase vs merge`](./git-lessons/rebase-vs-merge.md)
 19. [`Squashing Commits`](./git-lessons/squashing-commits.md)
