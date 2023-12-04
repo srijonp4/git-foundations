@@ -7,4 +7,12 @@
 5. [`git log`](./git-lessons/git-log.md)
 6. [`git reset`](./git-lessons/git-reset.md)
 7. [`git stash`](./git-lessons/git-stash.md)
-8. [`git-remote`](./git-lessons/git-remote.md)
+8. [`git remote`](./git-lessons/git-remote.md)
+9. [`git pull`](./git-lessons/git-pull.md)
+10. [`git push`](./git-lessons/git-push.md)
+11. [`git branch`](./git-lessons/git-branch.md)
+12. [`git merge`](./git-lessons/git-merge.md)
+13. [`git pull request`](./git-lessons/git-pull-request.md)
+14. [`git fetch upstream`](./git-lessons/git-fetch-upstream.md)
+
+### [Git Cheatsheet](./git-lessons/git-cheat-sheet-education.pdf)
