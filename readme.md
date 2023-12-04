@@ -7,3 +7,4 @@
 5. [`git log`](./git-lessons/git-log.md)
 6. [`git reset`](./git-lessons/git-reset.md)
 7. [`git stash`](./git-lessons/git-stash.md)
+8. [`git-remote`](./git-lessons/git-remote.md)
