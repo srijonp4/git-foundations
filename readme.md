@@ -16,3 +16,9 @@
 14. [`git fetch upstream`](./git-lessons/git-fetch-upstream.md)
 
 ### [Git Cheatsheet](./git-lessons/git-cheat-sheet-education.pdf)
+
+<object data="./git-lessons/git-cheat-sheet-education.pdf" type="application/pdf" width="100%" height="600px">
+  <p>It appears you don't have a PDF plugin for this browser. No worries, you can <a href="./git-lessons/git-cheat-sheet-education.pdf">download the PDF file.</a></p>
+</object>
+
+<iframe src="./git-lessons/git-cheat-sheet-education.pdf" width="100%" height="600px"></iframe>
