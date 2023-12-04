@@ -18,7 +18,7 @@
 9. [`git pull`](./git-lessons/git-pull.md)
 10. [`git push`](./git-lessons/git-push.md)
 11. [`git branch`](./git-lessons/git-branch.md)
-12. [`git fetch`]()
+12. [`git fetch`](./git-lessons/git-fetch.md)
 13. [`git merge`](./git-lessons/git-merge.md)
 14. [`git pull request`](./git-lessons/git-pull-request.md)
 15. [`git fetch upstream`](./git-lessons/git-fetch-upstream.md)
