@@ -1,5 +1,12 @@
 # Git Foundations
 
+#### 😶‍🌫️ References 🔽
+
+- [Official Documentation](https://git-scm.com/docs)
+- [Adding locally hosted code to GitHub]()
+
+#### 😶‍🌫️ Notes 🔽
+
 1. [`git status`](./git-lessons/git-status.md)
 2. [`git add`](./git-lessons/git-add.md)
 3. [`git commit`](./git-lessons/git-commit.md)
@@ -11,14 +18,20 @@
 9. [`git pull`](./git-lessons/git-pull.md)
 10. [`git push`](./git-lessons/git-push.md)
 11. [`git branch`](./git-lessons/git-branch.md)
-12. [`git merge`](./git-lessons/git-merge.md)
-13. [`git pull request`](./git-lessons/git-pull-request.md)
-14. [`git fetch upstream`](./git-lessons/git-fetch-upstream.md)
+12. [`git fetch`]()
+13. [`git merge`](./git-lessons/git-merge.md)
+14. [`git pull request`](./git-lessons/git-pull-request.md)
+15. [`git fetch upstream`](./git-lessons/git-fetch-upstream.md)
+16. [`Update the local branch which is behind some commits`](./git-lessons/update-local-branch)
+17. [`git rebase`](./git-lessons/git-rebase.md)
+18. [`rebase vs merge`](./git-lessons/rebase-vs-merge.md)
+19. [`Squashing Commits`](./git-lessons/squashing-commits.md)
 
-### [Git Cheatsheet](./git-lessons/git-cheat-sheet-education.pdf)
+#### [😶‍🌫️Git Quick Cheatsheet 🔽](./git-lessons/git-cheat-sheet-education.pdf)
 
-<object data="./git-lessons/git-cheat-sheet-education.pdf" type="application/pdf" width="100%" height="600px">
-  <p>It appears you don't have a PDF plugin for this browser. No worries, you can <a href="./git-lessons/git-cheat-sheet-education.pdf">download the PDF file.</a></p>
-</object>
+![Page 1](./git-lessons/git-cheat-sheet-education/git-cheat-sheet-education-1.png)
+![Page 2](./git-lessons/git-cheat-sheet-education/git-cheat-sheet-education-2.png)
 
-<iframe src="./git-lessons/git-cheat-sheet-education.pdf" width="100%" height="600px"></iframe>
+#### 😶‍🌫️ Video Tutorials 🔽
+
+- [Git and GitHub By Kunal Kushwaha](https://www.youtube.com/watch?v=apGV9Kg7ics)

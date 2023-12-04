@@ -1,10 +1,112 @@
 # Fetch Upstream
 
-## TLDR:
+## TL;DR :-)
+
+1. ```bash
+   $ git fetch --all --prune
+   ```
+2. ```bash
+   $ git checkout main
+   ```
+3. ```bash
+   $ git reset --hard upstream/main
+   ```
+4. ```bash
+   $ git log
+   ```
+
+##### OR
+
+1. ```bash
+   $ git pull upstream main
+   ```
+
+##### Explanation : Let's break down each step and explain the purpose of the commands:
+
+### 1. Fetching Upstream Changes
+
+```bash
+$ git fetch --all --prune
+```
+
+- **Explanation:**
+
+  - `git fetch --all`: Fetches changes from all remotes. This includes the default remote (usually named `origin`) and any additional remotes.
+  - `--prune`: Removes any remote-tracking branches that no longer exist on the remote.
+
+- **Example:**
+  ```bash
+  $ git fetch --all --prune
+  ```
+
+### 2. Switching to the Main Branch
+
+```bash
+$ git checkout main
+```
+
+- **Explanation:**
+
+  - `git checkout main`: Switches to the local `main` branch.
+
+- **Example:**
+  ```bash
+  $ git checkout main
+  ```
+
+### 3. Resetting Local Main to Upstream Main
+
+```bash
+$ git reset --hard upstream/main
+```
+
+- **Explanation:**
+
+  - `git reset --hard upstream/main`: Resets the local `main` branch to match the `upstream/main` branch. This discards any local changes and makes your local `main` identical to the `upstream/main`.
+
+- **Example:**
+  ```bash
+  $ git reset --hard upstream/main
+  ```
+
+### 4. Checking the Commit History
+
+```bash
+$ git log
+```
+
+- **Explanation:**
+
+  - `git log`: Displays the commit history of the current branch.
+
+- **Example:**
+  ```bash
+  $ git log
+  ```
+
+### Alternate Method Using Pull
+
+If you prefer using `git pull` for updating your local branch, you can achieve the same result with the following:
+
+```bash
+$ git pull upstream main --rebase
+```
+
+- **Explanation:**
+
+  - `git pull upstream main`: Pulls changes from the `upstream/main` branch into your current branch.
+  - `--rebase`: Applies your local changes on top of the changes from the upstream, ensuring a linear history.
+
+- **Example:**
+  ```bash
+  $ git pull upstream main --rebase
+  ```
+
+Choose between `git fetch` and `git pull` based on your workflow preferences. Some developers prefer `git fetch` for a more explicit and controlled approach, while others find `git pull` more convenient for a quick update. The `--rebase` flag with `git pull` helps maintain a cleaner commit history.
 
 ---
 
-## ALT:
+# Alternate Explanation:
 
 Fetching upstream in Git involves retrieving the latest changes from the original repository (the upstream repository) that your local repository is forked from. This is commonly done when you want to keep your forked repository up-to-date with the changes made in the original repository. Here's a step-by-step guide:
 
