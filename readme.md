@@ -6,3 +6,4 @@
 4. [`git restore --staged`](./git-lessons/git-restored--staged.md)
 5. [`git log`](./git-lessons/git-log.md)
 6. [`git reset`](./git-lessons/git-reset.md)
+7. [`git stash`](./git-lessons/git-stash.md)
